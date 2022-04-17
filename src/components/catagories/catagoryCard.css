@@ -1,0 +1,35 @@
+.container{
+    margin: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products h1{
+    color: var(--secondary-dark);
+    font-size: 3.7rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 5rem;
+    margin-left: 4rem;
+}
+.container .img-container{
+    width: 200px;
+    height: 200px;
+    margin: 6px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+}
+
+.catagory-card{
+    margin: 1rem 2rem;
+    text-align: center;
+    
+}
+.catagory-card h2{
+cursor: pointer;
+font-size: 1.7rem;
+
+}

@@ -1,0 +1,28 @@
+.footer-container{
+    width: 100%;
+    font-size:1.7rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-voilet);
+    background-color: var(--grey);
+}
+
+.footer-container .nav-icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container p{
+    margin: 0 0 1.5rem 0;
+    color: var(--primary-voilet);
+    font-weight: 400;
+}
+
+.footer-container a{
+    color:var(--secondary-dark);
+    font-size: 3rem;
+    margin-right: 1.5rem;
+}

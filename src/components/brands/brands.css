@@ -1,0 +1,30 @@
+
+.brands .heading{
+    color:var(--secondary-dark);
+    font-size: 3.7rem;
+    margin-left: 4rem;
+    letter-spacing: 1px;
+}
+
+.logo-container{
+    margin: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+padding:2rem
+}
+.logo-container .brand-card{
+    margin: 1.5rem;
+    cursor: pointer
+}
+.logo-container  .img-container{
+    width: 4rem;
+    height: 4rem;
+}
+ 
+.logo-container .product-img{
+    width:100%;
+    object-fit: cover;
+}
