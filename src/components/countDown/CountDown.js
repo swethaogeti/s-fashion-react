@@ -15,7 +15,7 @@ function CountDown() {
     const startTimer=()=>{
         const countDownDate=new Date('July 15,2022,00:00:00').getTime();
 
-        interval=setInterval(()=>{
+     interval=setInterval(()=>{
 const now=new Date().getTime();
 const gap=countDownDate-now;
 
@@ -38,15 +38,16 @@ if(gap<0){
     setTimerMinutes(m);
     setTimerSeconds(s);
 }
-
         },1000)
     }
    
 
     useEffect(()=>{
        startTimer();
+       const clearValue=interval.current
        return()=>{
-           clearInterval(interval.current)
+           
+           clearInterval(clearValue)
        } 
     })
   return (
