@@ -1,78 +1,81 @@
-.deal-component .heading{
-  color:var(--secondary-dark);
+.deal-component .heading {
+  color: var(--secondary-dark);
   font-size: 3.7rem;
- margin-left: 4rem;
- letter-spacing: 1px;
-}
-.deal{
-    padding:1.5rem  10%;
-}
-.deal .row{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-    align-items: center;
-  }
-
-  .deal .row .image{
-  flex:1 1 40rem;
+  margin-left: 4rem;
+  letter-spacing: 1px;
 }
 
-.deal .row .image img{
-  width:100%;
+.deal {
+  padding: 1.5rem 10%;
 }
 
-.deal .row .content{
-  flex:1 1 40rem;
+.deal .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.deal .row .image {
+  flex: 1 1 40rem;
+}
+
+.deal .row .image img {
+  width: 100%;
+}
+
+.deal .row .content {
+  flex: 1 1 40rem;
 }
 
 
-.deal .row .content .title{
+.deal .row .content .title {
   font-size: 3.5rem;
-  color:#333;
+  color: #333;
 }
 
-.deal .row .content h2{
+.deal .row .content h2 {
   font-size: 1.5rem;
-  color:#666;
-  padding:1rem 0;
+  color: #666;
+  padding: 1rem 0;
 }
-.deal .row .content h2{
-    font-size: 1.7rem;
-    color:#666;
-    padding:1rem 0;
-  }
-  
-  
-  .deal .row .content .count-down{
-    display: flex;
-    padding:1rem 0;
-    gap:1.5rem;
-  }
-  
-  .deal .row .content .count-down .box{
-    width:7rem;
-    text-align: center;
-    border:1px solid var(--secondary-dark);
-    margin-bottom: 1.5rem;
-  }
-  
-  .deal .row .content .count-down .box h3{
-    font-size: 4rem;
-    color:var(--primary-voilet);
-  }
 
-  .deal .row .content .count-down .box span{
-    font-size: 1.5rem;
-    color:#fff;
-    display: block;
-    background:var(--secondary-dark);
-    padding:.3rem;
- 
-  }
-  
-  .deal .row .btn{
-    padding: 0.7rem 1.5rem;
-    font-size: 1.7rem;
-    font-weight: 500;
-  }
+.deal .row .content h2 {
+  font-size: 1.7rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
+
+.deal .row .content .count-down {
+  display: flex;
+  padding: 1rem 0;
+  gap: 1.5rem;
+}
+
+.deal .row .content .count-down .box {
+  width: 7rem;
+  text-align: center;
+  border: 1px solid var(--secondary-dark);
+  margin-bottom: 1.5rem;
+}
+
+.deal .row .content .count-down .box h3 {
+  font-size: 4rem;
+  color: var(--primary-voilet);
+}
+
+.deal .row .content .count-down .box span {
+  font-size: 1.5rem;
+  color: #fff;
+  display: block;
+  background: var(--secondary-dark);
+  padding: .3rem;
+
+}
+
+.deal .row .btn {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
