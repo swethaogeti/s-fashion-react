@@ -1,0 +1,42 @@
+.product-card .rating-badge{
+    position: absolute;
+    font-size: 1.3rem;
+    top:27rem;
+   
+}
+.product-card .text-badge{
+    font-size: 1.4rem;
+}
+.product-card .icon-badge{
+    position: absolute;
+    font-size: 2.4rem;
+    top:28rem;
+  left:22rem;
+ color: var(--secondary-dark);
+}
+.product-card .card-container{
+    width: 25rem;
+    font-size: 1.5rem;
+    outline:1px solid var(--light-grey);
+    margin: 2rem;
+    background-color: white;
+}
+
+.product-card  .description-container h4{
+font-size: 1.6rem;
+}
+
+.product-card  .description-container p{
+    font-size: 1.4rem;
+    margin:1rem 0;
+    text-align: center;
+  font-weight: 400;
+}
+.product-card .price-container span{
+font-size: 1.3rem;
+}
+
+.product-card .btn{
+    font-size: 1.5rem;
+    padding: .6rem 0;
+}

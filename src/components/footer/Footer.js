@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 function Footer() {
   return (
-    <footer class="footer-container">
+    <footer className="footer-container">
     <p>Developed by Swetha Ogeti</p>
     <div class="nav-icons">
         <a href="https://www.linkedin.com/in/swetha-ogeti/"><i className="fab fa-linkedin"></i></a>
