@@ -15,6 +15,10 @@ export const rangeFilter=(products,filterRange)=>{
     return products.filter((item)=>item.price<=filterRange)
 }
 
+export const  searchFilter=(products,keyword)=>{
+return products.filter((item)=>item.brand.includes(keyword.toUpperCase()))
+}
+
 
 export const sortProducts=(products,sortBy)=>{
     if(sortBy==='LOW_TO_HIGH'){

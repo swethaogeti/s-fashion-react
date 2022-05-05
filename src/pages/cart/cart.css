@@ -1,0 +1,30 @@
+
+.cart-page {
+    display: flex;
+    background-color: white;
+    height:max-content;
+    margin:2rem 9%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   margin-bottom: 10rem;
+}
+.cart-layout .cart-layout-h2{
+    font-size: 2.7rem;
+    color:black;
+text-align: center;
+margin: 2rem 0;  
+}
+.cart-page  .cart-page-h2{ 
+    font-size: 2.7rem;
+    color:black;
+    margin: 2rem auto;
+}
+.cart-page .cart-page-left{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.cart-page .cart-page-right{
+    margin: 1.5rem 0 0 0;
+}

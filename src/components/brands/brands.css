@@ -1,4 +1,6 @@
-
+.brands{
+    margin-bottom: 10rem;
+}
 .brands .heading{
     color:var(--secondary-dark);
     font-size: 3.7rem;

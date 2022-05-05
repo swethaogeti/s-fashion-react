@@ -111,7 +111,7 @@ const {tommyHilfiger,fossil,daneilKlein,allenSolly}=state.brands
                 
            
          <div className='setRange'>
-   <h2>Set Range</h2>
+         <h2>Set Range</h2>
          <input type='range' min='0' max='5000' value={range} onChange={(e)=>dispatch({type:'RANGE',payload:e.target.value})}></input>
          </div>
          

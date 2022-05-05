@@ -83,12 +83,18 @@ export function filterReducer(state,action){
                   fastDelivery:false,
                  inStock:false,
                  trending:false,
-             range:5000
+             range:5000,
+             keyword:' '
                  }         
 
                         
 
-
+         case 'SEARCH_PRODUCT':
+           return{
+             ...state,
+             keyword:action.payload
+             
+           }
                
     
    }
@@ -113,5 +119,6 @@ brands:{
      fastDelivery:false,
     inStock:false,
     trending:false,
-range:5000
+range:5000,
+keyword:' '
    }

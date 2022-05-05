@@ -1,0 +1,34 @@
+.wishlist-prd .icon-badge {
+  position: absolute;
+  font-size: 2.2rem;
+  top: 30rem;
+  left: 1rem;
+  color: var(--secondary-dark);
+  cursor: pointer;
+}
+
+.wishlist-prd .icon-badge:hover {
+  font-size: 2.6rem;
+}
+
+.wishlist-prd .active-icon {
+  color: var(--primary-voilet);
+}
+
+.wishlist-prd .icon-badge-trash {
+  position: absolute;
+  font-size: 2.2rem;
+  left: 22rem;
+  color: var(--secondary-dark);
+  cursor: pointer;
+}
+
+.wishlist-prd .icon-badge-trash:hover {
+  color: var(--primary-voilet);
+  font-size: 2.6rem;
+}
+
+.wishlist-prd .image-responsive {
+  width: 25rem;
+  height: 33rem;
+}
