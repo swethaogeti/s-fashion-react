@@ -3,7 +3,7 @@ import '../wishlistCard/wishlistProduct.css'
 import { useCartContext } from '../../context/cartWishlistContext'
 const WishlistProduct = ({image,brand,id,title,price,discount,total_price}) => {
     const {cartState,cartDispatch}=useCartContext()
-    const {cart,whishlist,total,amount}=cartState
+    const {cart,total,amount}=cartState
     
   return (
     <div className='wishlist-prd product-card'>
