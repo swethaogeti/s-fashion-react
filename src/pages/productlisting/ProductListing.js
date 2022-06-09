@@ -3,18 +3,19 @@ import {Filter, ProductCard } from '../../components';
 import { useFilterContext } from '../../context/filterContext';
 import { useProductContext } from '../../context/productsContext'
 import './productlisting.css'
-import {inStockFilter,fastDeliveryFilter,sortProducts,sortByCategory,sortByBrand,trendingFilter,rangeFilter} from '../../utils/filterOperations'
+import {inStockFilter,fastDeliveryFilter,sortProducts,sortByCategory,sortByBrand,trendingFilter,rangeFilter,searchFilter} from '../../utils/filterOperations'
 function ProductListing() {
 
   const {products}=useProductContext();
-//  console.log(products)
+
 const {state}=useFilterContext()
 
 const {bags,watches,heels,shades}=state.catagories
 
 const {tommyHilfiger,fossil,daneilKlein,allenSolly}=state.brands
-const {sortBy,fastDelivery,inStock,range,trending}=state
+const {sortBy,fastDelivery,inStock,range,trending,keyword}=state
 
+const searchProducts=searchFilter(products,keyword);
 const rangeFilterProducts=rangeFilter(products,range)
 const stockFilterProducts=inStockFilter(rangeFilterProducts,inStock);
 
@@ -28,7 +29,7 @@ const sortByBrandProducts=sortByBrand(sortByCategoryProducts,tommyHilfiger,fossi
 
 const sortFinalProducts=sortProducts(sortByBrandProducts,sortBy)
 
-console.log(sortFinalProducts);
+
 
   return (
     <div className='productlisting'>

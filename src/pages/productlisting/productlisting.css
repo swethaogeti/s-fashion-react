@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-areas: 'sidebar main-layout';
-    margin-bottom: 2rem;
+    margin-bottom: 10rem;
     
   }
   .container-mini {

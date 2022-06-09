@@ -21,10 +21,11 @@ export const products = [
   inStock: true,
   fastDelivery: true,
   trending:true,
+  amount:1
 },
 {
   _id: uuid(),
-  title: "Th 2545 Mirrored Sunglasses",
+  title: "Mirrored Full-Rim Round Sunglasses",
   brand: "TOMMY HILFIGER",
   image:
     "https://assets.ajio.com/medias/sys_master/root/20201027/CU0r/5f983e55f997dd8c837907bc/tommy-hilfiger-pink-cat-eye-th-2545-mirrored-cateye-sunglasses.jpg",
@@ -35,7 +36,8 @@ export const products = [
   rating: 5,
   inStock: true,
   fastDelivery: false,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
@@ -50,7 +52,8 @@ export const products = [
   rating: 4,
   inStock: true,
   fastDelivery: false,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
@@ -65,7 +68,8 @@ export const products = [
   rating: 4,
   inStock: true,
   fastDelivery: false,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
@@ -80,7 +84,8 @@ export const products = [
   rating: 4,
   inStock: true,
   fastDelivery: true,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
@@ -95,7 +100,8 @@ export const products = [
   rating: 4,
   inStock: true,
   fastDelivery: false,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
@@ -110,7 +116,8 @@ export const products = [
   rating: 4,
   inStock: true,
   fastDelivery: false,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
@@ -125,7 +132,8 @@ export const products = [
   rating: 4,
   inStock: true,
   fastDelivery: false,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
@@ -141,7 +149,8 @@ export const products = [
   rating: 5,
   inStock: true,
   fastDelivery: true,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
@@ -157,6 +166,7 @@ export const products = [
   inStock: true,
   fastDelivery: false,
   trending:true,
+  amount:1
 },
 {
   _id: uuid(),
@@ -171,7 +181,8 @@ export const products = [
   rating: 4,
   inStock: false,
   fastDelivery: true,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
@@ -186,7 +197,8 @@ export const products = [
   rating: 5,
   inStock: true,
   fastDelivery: false,
-  trending:false
+  trending:false,
+  amount:1
 },
 
 {
@@ -202,7 +214,8 @@ export const products = [
   rating: 3,
   inStock: false,
   fastDelivery: true,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
@@ -218,6 +231,7 @@ export const products = [
   inStock: true,
   fastDelivery: true,
   trending:true,
+  amount:1
 },
 {
   _id: uuid(),
@@ -234,6 +248,7 @@ export const products = [
   inStock: true,
   fastDelivery: false,
   trending:true,
+  amount:1
 },
 {
   _id: uuid(),
@@ -248,7 +263,8 @@ export const products = [
   rating: 3,
   inStock: false,
   fastDelivery: false,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
@@ -264,14 +280,15 @@ export const products = [
   rating: 5,
   inStock: true,
   fastDelivery: true,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
   title: "Peach-Coloured PU Bowling Sling Bag",
   brand: "KLEIO",
   image:
-    "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16531258/2022/1/4/d95adfe6-b55b-44eb-b055-c4bcabd634df1641266489560-KLEIO-Peach-Coloured-PU-Bowling-Sling-Bag-with-Quilted-20516-11.jpg",
+    "https://assets.ajio.com/medias/sys_master/root/20220323/ZDue/623a1c87aeb26921afeb1a78/anna_claire_mustard_shoulder_bag_with_detachable_sling_strap.jpg",
   price: "3599",
   discount: "40",
   total_price:'6000',
@@ -279,7 +296,8 @@ export const products = [
   rating: 3,
   inStock: true,
   fastDelivery: false,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
@@ -295,7 +313,8 @@ export const products = [
   rating: 5,
   inStock: false,
   fastDelivery: true,
-  trending:false
+  trending:false,
+  amount:1
 },
 {
   _id: uuid(),
@@ -312,5 +331,6 @@ export const products = [
   inStock: true,
   fastDelivery: false,
   trending:true,
+  amount:1
 },
 ];

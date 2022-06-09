@@ -1,42 +1,60 @@
-.product-card .rating-badge{
+.product-card .rating-badge {
     position: absolute;
     font-size: 1.3rem;
-    top:27rem;
-   
+    top: 27rem;
+
 }
-.product-card .text-badge{
+
+.product-card .text-badge {
     font-size: 1.4rem;
 }
-.product-card .icon-badge{
+
+.product-card .icon-badge {
     position: absolute;
     font-size: 2.4rem;
-    top:28rem;
-  left:22rem;
- color: var(--secondary-dark);
+    top: 28rem;
+    left: 22rem;
+    color: var(--secondary-dark);
+    cursor: pointer
 }
-.product-card .card-container{
+
+.product-card .card-container {
     width: 25rem;
     font-size: 1.5rem;
-    outline:1px solid var(--light-grey);
+    outline: 1px solid var(--light-grey);
     margin: 2rem;
     background-color: white;
 }
 
-.product-card  .description-container h4{
-font-size: 1.6rem;
+.product-card .description-container h4 {
+    font-size: 1.6rem;
 }
 
-.product-card  .description-container p{
+.product-card .description-container p {
     font-size: 1.4rem;
-    margin:1rem 0;
+    margin: 1rem 0;
     text-align: center;
-  font-weight: 400;
-}
-.product-card .price-container span{
-font-size: 1.3rem;
+    font-weight: 400;
 }
 
-.product-card .btn{
-    font-size: 1.5rem;
-    padding: .6rem 0;
+.product-card .price-container span {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.product-card .btn {
+    font-size: 1.3rem;
+    padding: .5rem 0;
+    margin-top: .5rem;
+}
+
+.product-card .btn-link {
+    font-size: 1.3rem;
+    padding: .5rem 0;
+    margin-top: .5rem;
+    text-decoration: none;
+    font-weight: 500;
+    width: 24rem;
+    border-radius: 0;
+
 }

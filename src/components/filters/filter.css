@@ -21,6 +21,9 @@ align-items: center;
     font-size: 1.6rem;
     font-weight: 400;
 }
+.filters input{
+    cursor: pointer;
+}
 
 .filters .category{
     margin:1.5rem 0
