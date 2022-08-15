@@ -1,50 +1,50 @@
-.filters{
+.filters {
   font-size: 1.5rem;
- margin-left: 2rem;
- padding:1rem 1rem
+  margin-left: 2rem;
+  padding: 1rem 1rem;
 }
 
-.filters .btn-container{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-justify-content: space-between;
-align-items: center;
+.filters .btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.filters .btn-container h1{
-    font-size: 2.5rem;
+.filters .btn-container h1 {
+  font-size: 2.5rem;
 }
-.filters .btn-container .btn-primary{
-    background-color: white;
-    color:var(--primary-voilet);
-    font-size: 1.6rem;
-    font-weight: 400;
+.filters .btn-container .btn-primary {
+  background-color: white;
+  color: var(--primary-voilet);
+  font-size: 1.6rem;
+  font-weight: 400;
 }
-.filters input{
-    cursor: pointer;
-}
-
-.filters .category{
-    margin:1.5rem 0
+.filters input {
+  cursor: pointer;
 }
 
-.filters .category h2{
-   font-weight: 500;
-   font-size: 2rem;
-   margin: 1rem 0 0.8rem 0
+.filters .category {
+  margin: 1.5rem 0;
 }
 
-.filters .category label{
-   margin-left: 5px;
- font-size: 1.6rem;
+.filters .category h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 1rem 0 0.8rem 0;
 }
 
-.filters .input-item-2{
-    margin-bottom: 5px;
-    color:var(--secondary-dark)
+.filters .category label {
+  margin-left: 5px;
+  font-size: 1.6rem;
 }
 
-.filters .setRange input{
-   accent-color: var(--primary-voilet);
+.filters .input-item-2 {
+  margin-bottom: 5px;
+  color: var(--secondary-dark);
+}
+
+.filters .setRange input {
+  accent-color: var(--primary-voilet);
 }
