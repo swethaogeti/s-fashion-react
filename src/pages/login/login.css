@@ -1,0 +1,80 @@
+.login-page {
+  height: 100vh;
+}
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255, 0.9);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.login-container form {
+  background: #fff;
+  border: var(--secondary-dark);
+  width: 40rem;
+  padding: 2rem;
+  margin: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.login-container h3 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--primary-voilet);
+  text-align: center;
+}
+.login-container form span {
+  display: block;
+  font-size: 1.7rem;
+  padding-top: 0.6rem;
+}
+
+.login-container form .input-box {
+  width: 100%;
+  margin: 0.3rem 0;
+  font-size: 1.5rem;
+  border: none;
+  outline: 1px solid var(--secondary-dark);
+  border-radius: 1px;
+  padding: 1rem 1.2rem;
+  color: var(--primary-grey);
+}
+
+.login-container .btn {
+  display: inline-block;
+  background: var(--primary-voilet);
+  width: 100%;
+  color: #fff;
+  min-width: 135px;
+  padding: 1.2rem 0;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 14px;
+  border: none;
+  border-radius: 1px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.login-container .guest-btn {
+  background-color: #f0f0f0;
+  color: var(--secondary-dark);
+}
+
+.login-container p {
+  margin-top: 0.8rem;
+  font-size: 1.5rem;
+}
+
+.login-container .link {
+  color: var(--primary-voilet);
+  text-decoration: none;
+}
