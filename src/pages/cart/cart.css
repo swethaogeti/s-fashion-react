@@ -2,11 +2,9 @@
   display: flex;
   background-color: white;
   height: max-content;
-  /* margin: 1rem; */
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 10rem;
-  height: 100vh;
 }
 .cart-layout .cart-layout-h2 {
   font-size: 2.7rem;

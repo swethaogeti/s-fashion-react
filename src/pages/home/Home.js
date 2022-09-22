@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Brands,
-  CatagoryCard,
-  CountDown,
-  Slider,
-  Navbar,
-} from "../../components";
+import { Brands, CatagoryCard, CountDown, Slider } from "../../components";
 function Home() {
   return (
     <div>

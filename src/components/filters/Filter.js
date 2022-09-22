@@ -1,4 +1,3 @@
-import React from "react";
 import { useFilterContext } from "../../context/filterContext";
 import "./filter.css";
 

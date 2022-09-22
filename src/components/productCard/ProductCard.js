@@ -1,4 +1,3 @@
-import React from "react";
 import { useCartContext } from "../../context/cartWishlistContext";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
@@ -21,7 +20,7 @@ function ProductCard({
   const { cart, wishlist } = cartState;
   const { user } = useAuth();
   const navigate = useNavigate();
-  console.log(user);
+
   return (
     <div className="product-card" key={id}>
       <div className="card-container flex-box-default">
